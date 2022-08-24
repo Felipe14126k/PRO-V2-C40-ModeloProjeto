@@ -6,16 +6,30 @@
 
   <script src="js/form.js"></script>
 <!--Link game.js e player.js-->
-   
-<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
 
-<!--Adicione configuração do banco de dados abaixo-->
-  
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyCHZ_ZEmq68eqQ5RJqxUOzj6JX2Pd6r3X8",
+  authDomain: "pega--fruta.firebaseapp.com",
+  projectId: "pega--fruta",
+  storageBucket: "pega--fruta.appspot.com",
+  messagingSenderId: "552757162599",
+  appId: "1:552757162599:web:44a019a87fae77ae6e1ac2"
+};
+   // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
+    </script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
 
 </head>
 <body>
+ 
   <script src="sketch.js"></script>
 
 
